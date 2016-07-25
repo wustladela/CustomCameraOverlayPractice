@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		897564751D45D83300B8C1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897564741D45D83300B8C1EA /* AppDelegate.swift */; };
+		897564771D45D83300B8C1EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897564761D45D83300B8C1EA /* ViewController.swift */; };
+		8975647A1D45D83300B8C1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897564781D45D83300B8C1EA /* Main.storyboard */; };
+		8975647C1D45D83300B8C1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8975647B1D45D83300B8C1EA /* Assets.xcassets */; };
+		8975647F1D45D83300B8C1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8975647D1D45D83300B8C1EA /* LaunchScreen.storyboard */; };
+		897564881D45D8A100B8C1EA /* PreCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897564861D45D8A100B8C1EA /* PreCameraViewController.swift */; };
+		897564891D45D8A100B8C1EA /* PreCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 897564871D45D8A100B8C1EA /* PreCameraViewController.xib */; };
+		8975648C1D45D97700B8C1EA /* CustomOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975648A1D45D97700B8C1EA /* CustomOverlayViewController.swift */; };
+		8975648D1D45D97700B8C1EA /* CustomOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8975648B1D45D97700B8C1EA /* CustomOverlayViewController.xib */; };
+		8975648F1D45D98E00B8C1EA /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975648E1D45D98E00B8C1EA /* CustomOverlayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		897564711D45D83300B8C1EA /* CustomOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897564741D45D83300B8C1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		897564761D45D83300B8C1EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		897564791D45D83300B8C1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8975647B1D45D83300B8C1EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8975647E1D45D83300B8C1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		897564801D45D83300B8C1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897564861D45D8A100B8C1EA /* PreCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreCameraViewController.swift; sourceTree = "<group>"; };
+		897564871D45D8A100B8C1EA /* PreCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreCameraViewController.xib; sourceTree = "<group>"; };
+		8975648A1D45D97700B8C1EA /* CustomOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayViewController.swift; sourceTree = "<group>"; };
+		8975648B1D45D97700B8C1EA /* CustomOverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayViewController.xib; sourceTree = "<group>"; };
+		8975648E1D45D98E00B8C1EA /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8975646E1D45D83300B8C1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		897564681D45D83300B8C1EA = {
+			isa = PBXGroup;
+			children = (
+				897564731D45D83300B8C1EA /* CustomOverlay */,
+				897564721D45D83300B8C1EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		897564721D45D83300B8C1EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				897564711D45D83300B8C1EA /* CustomOverlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		897564731D45D83300B8C1EA /* CustomOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				897564741D45D83300B8C1EA /* AppDelegate.swift */,
+				897564761D45D83300B8C1EA /* ViewController.swift */,
+				897564781D45D83300B8C1EA /* Main.storyboard */,
+				8975647B1D45D83300B8C1EA /* Assets.xcassets */,
+				8975647D1D45D83300B8C1EA /* LaunchScreen.storyboard */,
+				897564801D45D83300B8C1EA /* Info.plist */,
+				897564861D45D8A100B8C1EA /* PreCameraViewController.swift */,
+				897564871D45D8A100B8C1EA /* PreCameraViewController.xib */,
+				8975648A1D45D97700B8C1EA /* CustomOverlayViewController.swift */,
+				8975648B1D45D97700B8C1EA /* CustomOverlayViewController.xib */,
+				8975648E1D45D98E00B8C1EA /* CustomOverlayView.swift */,
+			);
+			path = CustomOverlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		897564701D45D83300B8C1EA /* CustomOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897564831D45D83300B8C1EA /* Build configuration list for PBXNativeTarget "CustomOverlay" */;
+			buildPhases = (
+				8975646D1D45D83300B8C1EA /* Sources */,
+				8975646E1D45D83300B8C1EA /* Frameworks */,
+				8975646F1D45D83300B8C1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomOverlay;
+			productName = CustomOverlay;
+			productReference = 897564711D45D83300B8C1EA /* CustomOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		897564691D45D83300B8C1EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Adela Gao";
+				TargetAttributes = {
+					897564701D45D83300B8C1EA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8975646C1D45D83300B8C1EA /* Build configuration list for PBXProject "CustomOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 897564681D45D83300B8C1EA;
+			productRefGroup = 897564721D45D83300B8C1EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				897564701D45D83300B8C1EA /* CustomOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8975646F1D45D83300B8C1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8975647F1D45D83300B8C1EA /* LaunchScreen.storyboard in Resources */,
+				8975647C1D45D83300B8C1EA /* Assets.xcassets in Resources */,
+				8975647A1D45D83300B8C1EA /* Main.storyboard in Resources */,
+				897564891D45D8A100B8C1EA /* PreCameraViewController.xib in Resources */,
+				8975648D1D45D97700B8C1EA /* CustomOverlayViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8975646D1D45D83300B8C1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8975648C1D45D97700B8C1EA /* CustomOverlayViewController.swift in Sources */,
+				897564771D45D83300B8C1EA /* ViewController.swift in Sources */,
+				897564881D45D8A100B8C1EA /* PreCameraViewController.swift in Sources */,
+				8975648F1D45D98E00B8C1EA /* CustomOverlayView.swift in Sources */,
+				897564751D45D83300B8C1EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		897564781D45D83300B8C1EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				897564791D45D83300B8C1EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8975647D1D45D83300B8C1EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8975647E1D45D83300B8C1EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		897564811D45D83300B8C1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		897564821D45D83300B8C1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		897564841D45D83300B8C1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adelagao.CustomOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		897564851D45D83300B8C1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adelagao.CustomOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8975646C1D45D83300B8C1EA /* Build configuration list for PBXProject "CustomOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897564811D45D83300B8C1EA /* Debug */,
+				897564821D45D83300B8C1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897564831D45D83300B8C1EA /* Build configuration list for PBXNativeTarget "CustomOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897564841D45D83300B8C1EA /* Debug */,
+				897564851D45D83300B8C1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 897564691D45D83300B8C1EA /* Project object */;
+}
